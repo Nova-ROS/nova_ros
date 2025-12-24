@@ -1,0 +1,23 @@
+{
+    "names": {
+        "tracetools": {
+            "cmake-args": [
+                "-DTRACETOOLS_DISABLED=ON",
+                "TRACETOOLS_TRACEPOINTS_EXCLUDED=ON",
+                "-DTRACETOOLS_STATUS_CHECKING_TOOL=OFF"
+            ]
+        },
+        "test_tracetools": {
+            "cmake-args": [
+                "-DTRACETOOLS_DISABLED=ON",
+                "TRACETOOLS_TRACEPOINTS_EXCLUDED=ON",
+                "-DTRACETOOLS_STATUS_CHECKING_TOOL=OFF"
+            ]
+        },
+        "lttngpy": {
+            "cmake-args": [
+                "-DLTTNGPY_DISABLED=ON"
+            ]
+        }
+    }
+}
