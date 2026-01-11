@@ -27,14 +27,6 @@ repositories:
     type: git
     url: https://github.com/ament/uncrustify_vendor.git
     version: jazzy
-  eProsima/Fast-CDR:
-    type: git
-    url: https://github.com/eProsima/Fast-CDR.git
-    version: 2.2.x
-  eProsima/foonathan_memory_vendor:
-    type: git
-    url: https://github.com/eProsima/foonathan_memory_vendor.git
-    version: master
   eclipse-cyclonedds/cyclonedds:
     type: git
     url: https://github.com/eclipse-cyclonedds/cyclonedds.git
@@ -55,18 +47,6 @@ repositories:
     type: git
     url: https://github.com/ros-tooling/libstatistics_collector.git
     version: jazzy
-  ros/class_loader:
-    type: git
-    url: https://github.com/ros/class_loader.git
-    version: jazzy
-  ros/console_bridge_vendor:
-    type: git
-    url: https://github.com/ros2/console_bridge_vendor.git
-    version: jazzy
-  ros/pluginlib:
-    type: git
-    url: https://github.com/ros/pluginlib.git
-    version: jazzy
   ros/ros_environment:
     type: git
     url: https://github.com/ros/ros_environment.git
@@ -85,8 +65,8 @@ repositories:
     version: jazzy
   ros2/examples:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: jazzy
+    url: https://github.com/Nova-ROS/examples.git
+    version: nova-jazzy
   ros2/launch:
     type: git
     url: https://github.com/ros2/launch.git
@@ -133,16 +113,16 @@ repositories:
     version: jazzy
   ros2/rclcpp:
     type: git
-    url: https://github.com/ros2/rclcpp.git
-    version: jazzy
+    url: https://github.com/Nova-ROS/rclcpp.git
+    version: nova-jazzy
   ros2/rclpy:
     type: git
     url: https://github.com/ros2/rclpy.git
     version: jazzy
   ros2/rcpputils:
     type: git
-    url: https://github.com/ros2/rcpputils.git
-    version: jazzy
+    url: https://github.com/Nova-ROS/rcpputils.git
+    version: nova-jazzy
   ros2/rcutils:
     type: git
     url: https://github.com/ros2/rcutils.git
@@ -206,10 +186,6 @@ repositories:
   ros2/rosidl_typesupport:
     type: git
     url: https://github.com/ros2/rosidl_typesupport.git
-    version: jazzy
-  ros2/rosidl_typesupport_fastrtps:
-    type: git
-    url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
     version: jazzy
   ros2/rpyutils:
     type: git
