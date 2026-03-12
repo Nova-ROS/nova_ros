@@ -97,8 +97,8 @@ repositories:
     version: jazzy
   ros2/rcl:
     type: git
-    url: https://github.com/ros2/rcl.git
-    version: jazzy
+    url: https://github.com/Nova-ROS/rcl.git
+    version: nova-jazzy
   ros2/rcl_interfaces:
     type: git
     url: https://github.com/ros2/rcl_interfaces.git
