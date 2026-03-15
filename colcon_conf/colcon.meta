@@ -18,6 +18,11 @@
             "cmake-args": [
                 "-DLTTNGPY_DISABLED=ON"
             ]
+        },
+        "rmw_implementation": {
+            "cmake-args": [
+                "-DRMW_IMPLEMENTATION_DISABLE_RUNTIME_SELECTION=OFF"
+            ]
         }
     }
 }
